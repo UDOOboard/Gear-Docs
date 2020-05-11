@@ -1,10 +1,10 @@
 # UDOO BOLT GEAR
-**UDOO BOLT GEAR** is a portable, breakthrough supercomputer that goes up to *3.6 GHz* thanks to the brand-new **AMD Ryzen&trade; Embedded V1000 SoC**, a top-notch APU, multicore CPU with powerful integrated mobile GPU - *AMD Radeon&trade; Vega 8 or AMD Radeon&trade; Vega 3 Graphics* - and an integrated **Arduino&reg; Leonardo-compatible** platform, all wrapped into one.
+**UDOO BOLT GEAR** is a portable, breakthrough supercomputer that goes up to *3.6 GHz* thanks to the brand-new **AMD Ryzen&trade; Embedded V1000 SoC**, a top-notch APU, multicore CPU with powerful integrated mobile GPU - *AMD Radeon&trade; Vega 8* - and an integrated **Arduino&reg; Leonardo-compatible** platform, all wrapped into one.
 
 On **UDOO BOLT GEAR** you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&reg; Leonardo world, including all the sketches, libraries and the official Arduino&reg; IDE.
 
 UDOO BOLT GEAR embeds two processors:
-* the new [**AMD Ryzen&trade; Embedded V1000**](https://www.amd.com/en/products/embedded-ryzen-v1000-series), *V1605B* or *1202B*, 14nm, up to a *4-cores/8-threads* CPU, with a thermal design power of just *12-25W*, designed for really fast Ultrathin Notebooks. This processor family brings together the breakthrough performance of the pioneering *AMD “Zen” CPU* and *AMD “Vega” GPU* architectures in a seamlessly-integrated SoC solution that sets a new standard in processing power for next-generation embedded designs.
+* the new [**AMD Ryzen&trade; Embedded V1000**](https://www.amd.com/en/products/embedded-ryzen-v1000-series), *V1605B*, 14nm, *4-cores/8-threads* CPU, with a thermal design power of just *12-25W*, designed for really fast Ultrathin Notebooks. This processor family brings together the breakthrough performance of the pioneering *AMD “Zen” CPU* and *AMD “Vega” GPU* architectures in a seamlessly-integrated SoC solution that sets a new standard in processing power for next-generation embedded designs.
 * the [**Microchip ATmega32U4**](https://www.microchip.com/wwwproducts/en/ATmega32u4) 8-bit AVR microcontroller, the same of *Arduino&reg; Leonardo*.
 
 While the AMD Ryzen&trade; Embedded V1000 processor can run all the Windows 10 and Linux 64-bit Distros you want to use as desktop PC, the Microchip ATmega32U4 allows easy access to a Arduino&reg; Leonardo environment.  
