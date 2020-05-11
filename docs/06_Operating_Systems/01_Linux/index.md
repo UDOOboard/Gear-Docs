@@ -1,6 +1,6 @@
-**UDOO BOLT** is a Single Board Computer based on the **AMD Ryzen&trade; Embedded V1000** family of System-on-Chips (SoCs), a series of Dual or Quad Core, 14nm, SoCs with **64-bit instruction set** and very low TDP.
+**UDOO BOLT GEAR** is a Single Board Computer based on the **AMD Ryzen&trade; Embedded V1000** family of System-on-Chips (SoCs), a series of Dual or Quad Core, 14nm, SoCs with **64-bit instruction set** and very low TDP.
 
-The **UDOO BOLT** supports all the *x86 Linux* distributions **64-bit**(aka x64, x86-64, x86_64).
+The **UDOO BOLT GEAR** supports all the *x86 Linux* distributions **64-bit**(aka x64, x86-64, x86_64).
 We suggest to always use a **64-bit** OS version.
 
 In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu OS.
@@ -11,26 +11,13 @@ Check the [Known issues](!Operating_Systems/Linux/Known_issues) section to know 
 
 If you are looking for the **Linux Drivers for the V1000 Processors** you can check the [**Linux Drivers**](!Operating_Systems/Linux/Drivers) section.
 
-<span class="label label-warning">Heads up!</span> The AMD processors of the UDOO BOLT and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and all working properly.
-
-## Ubuntu 19.04 Disco Dingo with amdgpu graphics and eMMC support
-
-Due to the known issues with some Linux distributions, we've created an installer image of **Ubuntu 19.04 Disco Dingo** optimized for UDOO BOLT.  
-
-This image will install Ubuntu 19.04 with the mainline *Linux Kernel 5.2.10* that already includes the **AMD eMMC Driver** for the Ryzen v1000 series processors.  
-Using this image you will **not** need to use `nomodeset` procedure to workaround the issue that afflicts **amdgpu graphics** in previous versions.  
-
-[**Ubuntu 19.04 - UDOO BOLT eMMC installer image**](https://sourceforge.net/projects/udooboard/files/UDOO_BOLT/Ubuntu/ubuntu-19.04.0-udoo-bolt-emmc-desktop-amd64.iso/download)  
-SHA1SUM: *d14f12d15f49c2356bfff14ad4a4366fefd83cc5  ubuntu-19.04.0-udoo-bolt-emmc-desktop-amd64.iso*
-
-In the [Getting Started](https://www.udoo.org/get-started-bolt/) section you can find a guide on how to install a Linux distro.
-You basically need to create a bootable USB with a tool like [rufus](https://rufus.ie/) on Windows or *Startup Disk Creator* on Linux or similar, and boot the board from that USB to start the installation wizard.
+<span class="label label-warning">Heads up!</span> The AMD processors of the UDOO BOLT GEAR and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and all working properly.
 
 ## Famous Linux distributions
 
 Here you can find an unordered list of 10 of the most popular Linux distributions:
 
-* [**Ubuntu**](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories. **Ubuntu 19.04 Disco Dingo** is the latest Ubuntu released version. **Ubuntu 18.04 LTS Bionic Beaver** is the latest Long Term Support version with a support end of life on April 2023. In the [V-Series V1000 Drivers & Support | AMD ](https://www.amd.com/en/support/embedded/amd-ryzen-embedded-v-series-processors/v-series-v1000-radeon-vega-graphics) page you can find AMD stable drivers to support **Ubuntu 18.04.1 LTS**.
+* [**Ubuntu**](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories. **Ubuntu 20.04 LTS Focal Fossa** is the latest Ubuntu released versionand the latest Long Term Support version with a support end of life on April 2025. In the [V-Series V1000 Drivers & Support | AMD ](https://www.amd.com/en/support/embedded/amd-ryzen-embedded-v-series-processors/v-series-v1000-radeon-vega-graphics) page you can find AMD GPU PRO stable drivers to support **Ubuntu 18.04.1 LTS**. Different famous flavor distros can be downloaded from the Ubuntu website such as Kubuntu, Xubuntu, Ubuntu Studio, UbuntuDDE and so on.
 
 * [**Linux Mint**](http://linuxmint.com/) is a Linux distribution built on top of Ubuntu. It uses Ubuntu’s software repositories, so the same packages are available on both. Originally, Mint was an alternative distribution loved mainly because it included media codecs and proprietary software that Ubuntu didn’t include by default.  
 
