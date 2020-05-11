@@ -1,4 +1,4 @@
-In the [UDOO Shop](https://shop.udoo.org/) you can also find some accessories for the UDOO BOLT.
+In the [UDOO Shop](https://shop.udoo.org/) you can also find some accessories for the UDOO BOLT GEAR.
 
 ## M.2 Modules
 
@@ -25,6 +25,8 @@ To mount the SSD is necessary the following fixtures (included with the board):
 ### M.2 Wi-Fi Intel dual band ac Wi-Fi + BT 4.2 5GHz + adhesive antenna
 
 <img src="../img/accessories/m2_wifi_bt_ac3168.jpg" alt="m2_wifi_bt_ac3168" class="img-responsive pull-right" height="200px" width="270px" style="margin-right:30px;margin-top:20px">
+
+<span class="label label-info">Info</span> This accessory is already included in the UDOO BOLT GEAR package.
 
 [Buy it from the shop](https://shop.udoo.org/kit-m2-wifi-bt.html)
 
@@ -58,7 +60,7 @@ To mount the WiFi/BT Kit the following fixtures are necessary(included with the 
 
 This module is based on **2x Realtek 8111GS** Ethernet controllers (fully compliant with *IEEE 802.3*, *IEEE 802.3u*, *IEEE 802.3ab*).
 
-When the M.2 dual Ethernet Module Kit accessory is plugged into M.2 Key B slot, the UDOO BOLT board will offer three different Gigabit Ethernet ports.
+When the M.2 dual Ethernet Module Kit accessory is plugged into M.2 Key B slot, the UDOO BOLT GEAR board will offer three different Gigabit Ethernet ports.
 
 To mount the M.2 dual Ethernet Module Kit the following fixtures are necessary (included with the board):
 
@@ -84,7 +86,7 @@ Display Features:
 
 * 1024×600 high resolution;
 * Resistive touch control;
-* Compatible and Direct-connect with UDOO BOLT with Windows 10 and Linux Operating Systems;
+* Compatible and Direct-connect with UDOO BOLT GEAR with Windows 10 and Linux Operating Systems;
 * Also works as a computer monitor, in this case, touch panel is unavailable and HDMI cable is required;
 * HDMI interface for displaying, no I/Os required (however, the touch panel still needs I/Os);
 * Multi-languages OSD menu, for power management, brightness adjustment, contrast adjustment, etc;
@@ -107,12 +109,14 @@ If you're looking for more info about this screen you can check the wiki page of
 
 [Buy it from the shop](https://shop.udoo.org/udoo-bolt-metal-case.html)
 
-A beautiful metal case for your UDOO BOLT.  
+<span class="label label-info">Info</span> This accessory is already included in the UDOO BOLT GEAR package.
+
+A beautiful metal case for your UDOO BOLT GEAR.  
 <span class="label label-warning">Heads up!</span> Please notice that the case does not dissipate heat itself, but it allows the airflow to dissipate the board properly using the processor fan.
 
 Check the [mechanical drawing](https://udoo.org/download/files/UDOO_BOLT/mechanical_specs/UDOO_BOLT_metal_case_drawings.pdf) to see the case dimensions.
 
-UDOO BOLT METAL CASE includes:
+UDOO BOLT GEAR METAL CASE includes:
 * 1x Sheet Metal Internal Part;
 * 1x Extruded Metal external Part;
 * 1x accessory kit:
@@ -178,11 +182,13 @@ For example you can use 2x IPEX MFH-4(W.FL) to RP-SMA cables and 2x RP-SMA anten
 * [HDMI to HDMI](https://shop.udoo.org/cable-hdmi-to-hdmi.html) -
 HDMI A Male to A Male Cable 2MT: Supports Ethernet, 3D, 4K video and Audio Return Channel (ARC)
 * [SATA data and power cables kit](https://shop.udoo.org/sata-data-and-power-cables-for-udoo-x86.html) -
-SATA data and power cables for UDOO BOLT (CN18 and CN30 connectors)
+SATA data and power cables for UDOO BOLT GEAR (CN18 and CN30 connectors)
 * [USB-C HUB](https://shop.udoo.org/usb-c-hub.html) -
 It includes 3x USB Type-A and 1GB Ethernet ports
 
 ### Power Supply
+
+<span class="label label-info">Info</span> These accessories are already included in the UDOO BOLT GEAR package.
 
 * [19V 65W AC power adapter](https://shop.udoo.org/bolt-accessories/19v-65w-ac-power-adapter.html)
   * Input: 100-240VAC 50/60Hz Output: 19V 3.42A DC
