@@ -1,8 +1,8 @@
 {
-    "title": "UDOO GEAR Docs",
-    "tagline": "UDOO GEAR Documentation",
+    "title": "UDOO BOLT GEAR Docs",
+    "tagline": "UDOO BOLT GEAR Documentation",
     "author": "UDOO Team",
-    "image": "/docs/img/logos/docs.png",
+    "image": "/docs-gear/img/doc_logo.png",
     "ignore": {
         "files": [
         ]
