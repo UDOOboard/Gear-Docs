@@ -13,7 +13,7 @@ such as SBCs. Read the full specification [here][specs].
 Basically you need to include/implement these libraries in you software code to
 communicate with the Embedded Controller and use the pinout functionalities.
 
-Download [here][dleapi] the official implementation for UDOO BOLT.
+Download [here][dleapi] the official implementation for UDOO BOLT GEAR.
 
 The package contains:
 * Latest precompiled EAPI Libraries

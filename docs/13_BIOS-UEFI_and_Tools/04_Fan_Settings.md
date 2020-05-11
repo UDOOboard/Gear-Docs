@@ -2,10 +2,10 @@
 
 On this page you will find some information and tips about the fan above the heatsink of the processor.
 
-The fan that cools the Ryzen&trade; processor of the UDOO BOLT is a 5V powered fan with PWM signal speed management and is managed entirely by the board's Embedded Controller.
+The fan that cools the Ryzen&trade; processor of the UDOO BOLT GEAR is a 5V powered fan with PWM signal speed management and is managed entirely by the board's Embedded Controller.
 
 The full management of the fan settings described below is possible starting from BIOS/UEFI Firmware version 1.07.  
-<span class="label label-warning">Heads up!</span>  Please, always keep updated the BIOS/UEFI Firmware of your UDOO BOLT to have the latest features and bugfix available.  
+<span class="label label-warning">Heads up!</span>  Please, always keep updated the BIOS/UEFI Firmware of your UDOO BOLT GEAR to have the latest features and bugfix available.  
 
 
 ### BIOS/UEFI Fan Settings
@@ -50,8 +50,4 @@ If you are in one of these usage scenarios, we suggest raising the value of **FA
 
 <p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
 if the fan is changed to one that does <strong>not handle PWM</strong> rotation speed, it is important for proper fan operation to set the values for <strong>FAN Duty Cycle % Above AC1</strong> to <strong>100</strong> and <strong>Speed change duration</strong> to <strong>0</strong>.
-</p>
-
-<p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
-If you are one of the <strong>Kickstarter users</strong> and you see a <span style="color:green"><strong>Green Dot</strong></span> 🟢 on one side of the fan, your fan is not handling the PWM speed correctly, so please set the <strong>FAN Duty Cycle % Above AC1</strong> to <strong>100</strong> and <strong>Speed change duration</strong> to <strong>0</strong>. If you still have a problem with this fan after applying these settings, please open a ticket in the customer care support center.
 </p>

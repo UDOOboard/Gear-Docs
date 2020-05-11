@@ -1,4 +1,4 @@
-At the following link you can find the latest BIOS/UEFI Firmware and the BIOS/UEFI Update Utility to quickly and easily update the UDOO BOLT with the new BIOS/UEFI Firmware version.
+At the following link you can find the latest BIOS/UEFI Firmware and the BIOS/UEFI Update Utility to quickly and easily update the UDOO BOLT GEAR with the new BIOS/UEFI Firmware version.
 
 <span class="label label-warning">Heads up!</span> **Please read carefully** all the following information in this page and in the documentation file inside the package before to flash the new BIOS/UEFI
 
@@ -35,10 +35,6 @@ The package contains:
   * Linux 64-bit programmer
 * Update procedure documentation (.pdf)
 
-Follow the procedure in the `APN - BIOS programming using AFU.pdf` file to update the BIOS/UEFI BIOS firmware using Windows, EFI shell or Linux running on your UDOO BOLT.
-
-<p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
-If you are one of the <strong>Kickstarter users</strong> and you see a <span style="color:green"><strong>Green Dot</strong></span> 🟢 on one side of the fan, please check the <a href="../BIOS-UEFI_and_Tools/Fan_Settings.html">Fan Settings</a> page.
-</p>
+Follow the procedure in the `APN - BIOS programming using AFU.pdf` file to update the BIOS/UEFI BIOS firmware using Windows, EFI shell or Linux running on your UDOO BOLT GEAR.
 
 <span class="label label-info">Note</span> Remember that updating the BIOS/UEFI firmware will revert the saved configuration to Factory Default.

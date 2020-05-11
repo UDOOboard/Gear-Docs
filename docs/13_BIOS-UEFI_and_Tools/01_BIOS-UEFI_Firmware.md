@@ -1,4 +1,4 @@
-UDOO BOLT is supplied with [American Megatrends International LLC(AMI)](https://ami.com/en/products/)'s BIOS/UEFI Firmware.
+UDOO BOLT GEAR is supplied with [American Megatrends International LLC(AMI)](https://ami.com/en/products/)'s BIOS/UEFI Firmware.
 
 It is possible to access the AMI Setup Utility by pressing the escape key (`ESC`) after System power up, during POST phase.
 
@@ -10,11 +10,11 @@ Please do NOT "play" with the BIOS-UEFI Firmware menu choices if you don't know 
 
 <span class="label label-warning">Heads up!</span> Since some resolutions or monitors are not managed well by the firmware, if you get a black screen when you try to enter in one of the UEFI Firmware Setup Utility Menu options, try using another Display with a 1920x1080 resolution (HDMI or DisplayPort) or a different cable.  
 
-<span class="label label-warning">Heads up!</span>  Please, always keep updated the BIOS/UEFI Firmware of your UDOO BOLT to have the latest features and bugfix available.  
+<span class="label label-warning">Heads up!</span>  Please, always keep updated the BIOS/UEFI Firmware of your UDOO BOLT GEAR to have the latest features and bugfix available.  
 
-### UDOO BOLT Hardware and UEFI BIOS User Manual
+### UDOO BOLT GEAR Hardware and UEFI BIOS User Manual
 
-For a complete explanation of the System Configuration Utility menu items you can download the exhaustive [UDOO BOLT Hardware and UEFI BIOS User Manual](https://udoo.org/download/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
+For a complete explanation of the System Configuration Utility menu items you can download the exhaustive [UDOO BOLT GEAR Hardware and UEFI BIOS User Manual](https://udoo.org/download/files/UDOO_BOLT/Doc/UDOO_BOLT_MANUAL.pdf)
 
 ### Restore Factory configuration
 
