@@ -1,11 +1,8 @@
 The Graphic controller of the **UDOO BOLT** is the integrated **AMD Radeon&trade; Vega Graphics**.  
-Depending of the board version these are the specification:
 
-* **AMD Radeon™ Vega 8 Graphics** - Up to 1100 MHz 8 execution units (**BOLT V8**)
-* **AMD Radeon™ Vega 3 Graphics** - Up to 1000 MHz 3 execution units (**BOLT V3**)
+* **AMD Radeon™ Vega 8 Graphics** - Up to 1100 MHz 8 execution units
 
-
-The AMD Radeon&trade; Vega Graphics controller, with 3 or 8 Execution units, offers extremely high graphical performances, supporting also **High Dynamical range (HDR)** Imaging. **DirectX® 12**, **EGL 1.4**, **OpenCL 2.1**, **OpenGL® ES 1.1/ 2.x / 3.x (Halti)**, **OpenGL® Next (Vulkan®)**, **OpenGL® 4.6** are also supported by this GPU, which can also offer **H.265** *10-bit video decoding* and *8-bit encoding*.
+The AMD Radeon&trade; Vega Graphics controller offers extremely high graphical performances, supporting also **High Dynamical range (HDR)** Imaging. **DirectX® 12**, **EGL 1.4**, **OpenCL 2.1**, **OpenGL® ES 1.1/ 2.x / 3.x (Halti)**, **OpenGL® Next (Vulkan®)**, **OpenGL® 4.6** are also supported by this GPU, which can also offer **H.265** *10-bit video decoding* and *8-bit encoding*.
 
 
 ### Video Output Connectors

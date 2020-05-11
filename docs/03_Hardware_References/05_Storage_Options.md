@@ -1,14 +1,6 @@
-### eMMC onboard
+### M.2 SATA/PCIe x2 Slot: Socket 2 Key B type 2242/3042/2260
 
-UDOO BOLT features an embedded multi media card memory of 32GB.  
-
-The eMMC use a **e.MMC 5.1 HS400** compliant interface.
-
-<span class="label label-warning">Heads up!</span> As a flash-based storage device, excessive drive access, particularly write commands, reduces its useful life. Therefore, it is strongly suggested to NOT create a swap partition on the eMMC device.
-
-### M.2 SATA/PCI-e x2 Slot: Socket 2 Key B type 2242/3042/2260
-
-The mass storage capabilities of the UDOO BOLT are completed by an M.2 SSD Slot, which allows plugging **M.2 Socket 2 Key B** Solid State Drives with **SATA** interface or **PCI-e x2** interface (*PCI-e x1* is also supported).
+UDOO BOLT features an M.2 SSD Slot, which allows plugging **M.2 Socket 2 Key B** Solid State Drives with **SATA** interface or **PCI-e x2** interface (*PCI-e x1* is also supported).
 
 The connector used for the M.2 SATA/PCI-e slot is *CN18*, is a standard 75 pin M.2 Key B connector, located at the bottom of the board.
 
@@ -18,9 +10,9 @@ It is possible to also place modules in `2242` or `3042` size, by using a M/F Sp
 
 In the [Official Accessories](!Accessories/Official_Accessories) section you can find a *M.2 SSD Transcend MTS600 2260* drive compatible with this connector, available in the UDOO shop.
 
-### M.2 NVMe Slot: Socket 3 Key M Type 2280
+### M.2 PCIe x4 NVMe Slot: Socket 3 Key M Type 2280
 
-Another possibility to connect mass storage devices is given by the **M.2 Key M Slot**, which allows the plugging of M.2 High Capacity SSD NVMe drives with **PCI-e x4** interface.
+Another possibility to connect mass storage devices is given by the **M.2 Key M Slot**, which allows the plugging of super fast M.2 High Capacity SSD NVMe drives with **PCI-e x4** interface.
 
 The connector used for the M.2 SSD slot is *CN17*, which is a standard *75 pin M.2 Key M* connector, located at the bottom of the board.
 
