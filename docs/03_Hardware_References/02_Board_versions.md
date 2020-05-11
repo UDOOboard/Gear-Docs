@@ -1,4 +1,4 @@
-The only difference between the two versions of the UDOO BOLT (V8 and V3) is the AMD APU version.   
+The only difference between the two versions of the UDOO BOLT GEAR (V8 and V3) is the AMD APU version.   
 The main differences between the two versions of the AMD Ryzen™ v1000 Embedded APU are shown in the following table.
 
 

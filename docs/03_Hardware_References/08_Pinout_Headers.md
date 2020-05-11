@@ -1,4 +1,4 @@
-**UDOO BOLT** features two pinout headers (dual-row 40 Pins), one on the top(CN24) and another on the bottom(CN25) of the board.
+**UDOO BOLT GEAR** features two pinout headers (dual-row 40 Pins), one on the top(CN24) and another on the bottom(CN25) of the board.
 
 * **CN24** - *Top*: The pin header connector on the top of the board is connected to the **ATmega32U4** microcontroller (**Arduino&reg; Leonardo-compatible**). Check the [Arduino Leonardo-compatible(ATmega32U4) Pinout](!/Arduino_Leonardo-compatible(ATmega32U4)/Pinout) section to know how to use it through the Arduino&reg; programming.
 * **CN25** - *Bottom*: The pin header connector on the bottom of the board is connected to the **Embedded Controller(MEC1705)**. The EC is used to manage some functionalities of the board like the fan management, the wake up of the Ryzen&trade; processor and others. The EC also manages the exposed buses in the CN25 pinout header like UART, I2C, etc. and these are usable from the main AMD Ryzen™ processor.
@@ -14,7 +14,7 @@ Since the Arduino Pinout connector (*CN24*) is fully described in the [dedicated
 The **Embedded Controller** input/output (I/O) pins operate at **3.3V**.
 
 <p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
-⚠️ <strong>Warning</strong>: UDOO BOLT Pins controlled by the Embedded Controller are 3.3V compliant. Providing higher voltages, like 5V or 12V, could irreversibly damage the board.  
+⚠️ <strong>Warning</strong>: UDOO BOLT GEAR Pins controlled by the Embedded Controller are 3.3V compliant. Providing higher voltages, like 5V or 12V, could irreversibly damage the board.  
 In order to properly work with an input voltage different from 3.3V you can use a bidirectional level shifter.
 </p>
 
@@ -143,34 +143,31 @@ The **Wake** is available at Pin **6**.
 |-----|-----------|---------------|
 | 6   |  WAKE#    |     GPIO025   |
 
+The wake signal is activated by a logical state change on the Pin (e.g. active low from 3.3V to GND).
 
+## GPIOs
 
-## Keyboard Scan
+The GPIOs can be used as [General Pourpose Input Output](https://en.wikipedia.org/wiki/General-purpose_input/output) pins.
 
-The Keyboard Scan Interface block provides a register interface to the EC to directly scan an external keyboard matrix of size up to 11x5.
+The **GPIOs** are available at Pins from **13** to **28**.
 
-* KS Input [4:0] : Column inputs from external keyboard matrix.
-* KS Output[10:0]: Row outputs to external keyboard matrix.
-
-The **Keyboard Scan** is available at Pins from **13** to **28**.
-
-| Pin | Function  | EC PAD |        
-|-----|-----------|---------------|
-| 13  |  KSO0     |     KSO00   |
-| 14  |  KSI0     |     KSI0   |
-| 15  |  KSO1     |     KSO01   |
-| 16  |  KSI1     |     KSI1   |
-| 17  |  KSO2     |     KSO02   |
-| 18  |  KSI2     |     KSI2   |
-| 19  |  KSO3     |     KSO03   |
-| 20  |  KSI3     |     KSI3   |
-| 21  |  KSO4     |     KSO04   |
-| 22  |  KSI4     |     KSI4   |
-| 23  |  KSO8     |     KSO08   |
-| 24  |  KS11     |     KSO11   |
-| 25  |  KSO9     |     KSO09   |
-| 26  |  KSO12    |     KSO12   |
-| 27  |  KSO10    |     KSO10   |
-| 28  |  KSO13    |     KSO13   |
+| Pin | EAPI Function  | EC PAD |        
+|-----|----------------|---------------|
+| 13  |  GPIO 0        |     GPIO040   |
+| 14  |  GPIO 5        |     GPIO017   |
+| 15  |  GPIO 1        |     GPIO045   |
+| 16  |  GPIO 6        |     GPIO020   |
+| 17  |  GPIO 2        |     GPIO046   |
+| 18  |  GPIO 7        |     GPIO021   |
+| 19  |  GPIO 3        |     GPIO047   |
+| 20  |  GPIO 8        |     GPIO026   |
+| 21  |  GPIO 4        |     GPIO107   |
+| 22  |  GPIO 9        |     GPIO027   |
+| 23  |  GPIO 10        |     GPIO121   |
+| 24  |  GPIO 13        |     GPIO124   |
+| 25  |  GPIO 11        |     GPIO122   |
+| 26  |  GPIO 14        |     GPIO125   |
+| 27  |  GPIO 12        |     GPIO123   |
+| 28  |  GPIO 15        |     GPIO126   |
 
 You can use these Pins as GPIO exposed by the EC using the [EAPI libraries](!/BIOS-UEFI_and_Tools/EAPI) in your software.

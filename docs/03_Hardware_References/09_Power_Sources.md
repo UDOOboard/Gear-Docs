@@ -8,7 +8,7 @@ A bicolour Green/Yellow LED is placed near the DC IN power jack (CN5) to signal 
 When the board is powered but turned off, then the LED turns on Yellow, during normal working (S0 State) the LED turns on Green light.
 
 ## DC Power Jack
-The UDOO BOLT board can be supplied with an external **19VDC ± 5%** power supply, minimum **60W** (i.e. min. *3.15A @ 19V*) for basic functionalities recommended.
+The UDOO BOLT GEAR board can be supplied with an external **19VDC ± 5%** power supply, minimum **60W** (i.e. min. *3.15A @ 19V*) for basic functionalities recommended.
 
 <span class="label label-warning">Heads up!</span> Always make sure that the power cable is less than *3mt.* long.
 

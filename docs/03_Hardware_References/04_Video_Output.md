@@ -1,4 +1,4 @@
-The Graphic controller of the **UDOO BOLT** is the integrated **AMD Radeon&trade; Vega Graphics**.  
+The Graphic controller of the **UDOO BOLT GEAR** is the integrated **AMD Radeon&trade; Vega Graphics**.  
 
 * **AMD Radeon™ Vega 8 Graphics** - Up to 1100 MHz 8 execution units
 
@@ -7,12 +7,12 @@ The AMD Radeon&trade; Vega Graphics controller offers extremely high graphical p
 
 ### Video Output Connectors
 
-The UDOO BOLT is able to drive 4x 4K independent displays, by using the 2x HDMI 2.0 and the 2x USB-C interfaces available.
+The UDOO BOLT GEAR is able to drive 4x 4K independent displays, by using the 2x HDMI 2.0 and the 2x USB-C interfaces available.
 The AMD Ryzen Embedded V1000 family of Processors offer four Digital Display Interfaces, configurable to work in HDMI/DVI/DP++ modes.
 
 #### HDMI Connectors
 
-On the UDOO BOLT board, the Digital Display Interfaces #0 and #1 are used to implement two **HDMI 2.0** interfaces through as many HDMI ReDriver / Level shifters and ESD protection + signal conditioning ICs.
+On the UDOO BOLT GEAR board, the Digital Display Interfaces #0 and #1 are used to implement two **HDMI 2.0** interfaces through as many HDMI ReDriver / Level shifters and ESD protection + signal conditioning ICs.
 
 Maximum resolution:
 * 4096x2160 @ 60Hz
@@ -30,4 +30,4 @@ Maximum resolution:
 * 4096x2160 @ 60Hz
 
 In the market, you can find USB-C Touch Displays with a single USB-C cable to power the display, send the video signal and receive the touch signal.
-In addition, there are displays that provide power via USB-C. Once the display is connected to a standard power supply, they allow the UDOO BOLT to be powered by a single USB-C cable and receive the video signal.
+In addition, there are displays that provide power via USB-C. Once the display is connected to a standard power supply, they allow the UDOO BOLT GEAR to be powered by a single USB-C cable and receive the video signal.

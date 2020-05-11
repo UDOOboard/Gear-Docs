@@ -1,10 +1,10 @@
 ### M.2 SATA/PCIe x2 Slot: Socket 2 Key B type 2242/3042/2260
 
-UDOO BOLT features an M.2 SSD Slot, which allows plugging **M.2 Socket 2 Key B** Solid State Drives with **SATA** interface or **PCI-e x2** interface (*PCI-e x1* is also supported).
+UDOO BOLT GEAR features an M.2 SSD Slot, which allows plugging **M.2 Socket 2 Key B** Solid State Drives with **SATA** interface or **PCI-e x2** interface (*PCI-e x1* is also supported).
 
 The connector used for the M.2 SATA/PCI-e slot is *CN18*, is a standard 75 pin M.2 Key B connector, located at the bottom of the board.
 
-On the UDOO BOLT board there is also a Threaded Spacer which allows the placement of M.2 Socket 2 Key B SATA/PCI-e modules in `2260` size.
+On the UDOO BOLT GEAR board there is also a Threaded Spacer which allows the placement of M.2 Socket 2 Key B SATA/PCI-e modules in `2260` size.
 
 It is possible to also place modules in `2242` or `3042` size, by using a M/F Spacer, which allows fixing the M.2 module on the spacer already available on the PCB, deemed for the fixing of the M.2 Key E.
 
@@ -16,7 +16,7 @@ Another possibility to connect mass storage devices is given by the **M.2 Key M 
 
 The connector used for the M.2 SSD slot is *CN17*, which is a standard *75 pin M.2 Key M* connector, located at the bottom of the board.
 
-On the UDOO BOLT board there is also a Threaded Spacer which allows the placement of M.2 Socket 3 Key M PCI-e SSD modules in `2280` size.
+On the UDOO BOLT GEAR board there is also a Threaded Spacer which allows the placement of M.2 Socket 3 Key M PCI-e SSD modules in `2280` size.
 
 <span class="label label-info">Info</span> In this thread of the UDOO Forum you can find an *unofficial* but useful discussion about others compatible NVMe memories: [NVME M.2 SSD Compatibility List](https://www.udoo.org/forum/threads/nvme-m-2-ssd-compatibility-list.27252/)
 
