@@ -1,4 +1,4 @@
-The UDOO BOLT embeds a **Microchip ATmega32u4** microcontroller, the same as Arduino&reg; Leonardo, with the same open-source schematic.
+The UDOO BOLT GEAR embeds a **Microchip ATmega32u4** microcontroller, the same as Arduino&reg; Leonardo, with the same open-source schematic.
 
 The main AMD Ryzen™ processor and the ATmega32u4 microcontroller are connected through an internal USB serial connection, so it’s exactly like having an Arduino® Leonardo connected with a standard PC but all in a small form factor Single Board Computer.
 

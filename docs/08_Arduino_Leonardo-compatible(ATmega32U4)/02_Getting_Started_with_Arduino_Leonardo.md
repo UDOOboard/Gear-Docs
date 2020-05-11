@@ -1,5 +1,5 @@
 
-To start programming the Arduino&reg; Leonardo-compatible embedded microcontroller of the UDOO BOLT you need the `Arduino IDE` or the `Arduino Web IDE`.
+To start programming the Arduino&reg; Leonardo-compatible embedded microcontroller of the UDOO BOLT GEAR you need the `Arduino IDE` or the `Arduino Web IDE`.
 
 You can refer to the [Arduino Leonardo](https://www.arduino.cc/en/Main/Arduino_BoardLeonardo) page and the [Getting Started with the Arduino Leonardo](https://www.arduino.cc/en/Guide/ArduinoLeonardoMicro) page on Arduino&reg;'s website.  
 
@@ -40,13 +40,13 @@ where `<yourUserName>` is your Linux user name. **You will need to log out and l
 
 #### ModemManager conflict
 
-If you have issues when trying to upload a sketch on the Arduino Leonardo-compatible ATmega32U4 of UDOO BOLT you probably have a conflict with the program **ModemManager** (installed by default on many Linux distros like Ubuntu).
+If you have issues when trying to upload a sketch on the Arduino Leonardo-compatible ATmega32U4 of UDOO BOLT GEAR you probably have a conflict with the program **ModemManager** (installed by default on many Linux distros like Ubuntu).
 
 Modem Manager tries to open any serial port (ttyACM0 of the Arduino Leonardo included) checking if it's a modem and this usually creates conflicts with the upload mechanism.
 
 If you have installed *ModemManager* on your Linux you can try to disable or uninstall it (https://askubuntu.com/questions/216114/how-can-i-remove-modem-manager-from-boot)
 
-Since you probably don't have a modem on your UDOO BOLT you can safely uninstall the package to solve the issue or disable it running the commands:
+Since you probably don't have a modem on your UDOO BOLT GEAR you can safely uninstall the package to solve the issue or disable it running the commands:
 
     sudo systemctl stop ModemManager.service
     sudo systemctl disable ModemManager.service
