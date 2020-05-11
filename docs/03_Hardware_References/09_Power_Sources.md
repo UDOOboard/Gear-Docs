@@ -16,7 +16,7 @@ This voltage can be supplied through a DC power jack (CN5).
 
 **Mating DC** plug is a male connector **4.5mm x 3.0mm with pin inside**.
 
-<span class="label label-warning">Heads up!</span> CE and FCC certifications retained using only the UDOO BOLT qualified Power Supply you can find in the UDOO Shop. When not using UDOO Bolt qualified Power Supply, use 19VDC (min 60W power) PSUs certified for your country
+<span class="label label-warning">Heads up!</span> CE and FCC certifications retained using only the UDOO BOLT qualified Power Supply you can find in the UDOO Shop. When not using UDOO Gear qualified Power Supply, use 19VDC (min 60W power) PSUs certified for your country
 
 ## USB Type-C
 
@@ -32,7 +32,7 @@ The **PD Sink** power profile is **20V 3A**.
 
 ## USB Type-C
 
-In **Power Delivery Source Mode** (in output from the Bolt to a USB device) the output is **5V 3A** *max* per port with an overall budget of **4A**, ie if a device connected to one port is consuming 3A, the other port has maximum 1 other Ampere to be given in output.
+In **Power Delivery Source Mode** (in output from the Gear to a USB device) the output is **5V 3A** *max* per port with an overall budget of **4A**, ie if a device connected to one port is consuming 3A, the other port has maximum 1 other Ampere to be given in output.
 
 ## USB 3.0 Type A
 
