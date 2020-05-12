@@ -31,8 +31,10 @@
 | <img src="../img/icons/pins.png" height="20px" width="20px">            | Embedded Controller I/O Pins |  2x UART, 2x I2C, 1x SPI, 1x FAN Controller, 10x GPIO     |
 | <img src="../img/icons/os.png" height="20px" width="20px">              | Operating System | Windows 10 64bit<br>Any Linux Distribution for x86_64bit                                  |
 | <img src="../img/icons/dimensions.png" height="20px" width="20px">      | Board Dimensions | 12cm x 12cm  -  4.72” x 4.72”  - Nano-ITX standard form factor                          |
-
 <br/>
+
+For other info about the AMD Ryzen™ V1605B Embedded Processors series follow this link:  
+[AMD Ryzen™ Embedded Processors series](https://www.amd.com/en/products/embedded-ryzen-v1000-series)  
 
 ## ATMEL&reg; ATMEGA32U4 MICROCONTROLLER
 
