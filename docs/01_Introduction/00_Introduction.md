@@ -36,7 +36,7 @@ If you find any problem in the proper working of UDOO BOLT GEAR you can check th
 
 ## Technical specifications
 
-<img src="../img/bolt_top.png" alt="UDOO_BOLT_top" class="img-responsive pull-right" height="500px" style="margin-bottom:20px; margin-left:30px;">
+<img src="../img/gear_top.png" alt="UDOO_BOLT_top" class="img-responsive pull-right" height="500px" style="margin-bottom:20px; margin-left:30px;">
 
 * Processor:
   * CPU AMD Ryzen&trade; Embedded V1605B SoC up to 3.6 GHz
