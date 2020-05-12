@@ -2,7 +2,7 @@
     "title": "UDOO BOLT GEAR Docs",
     "tagline": "UDOO BOLT GEAR Documentation",
     "author": "UDOO Team",
-    "image": "/docs-gear/img/doc_logo.png",
+    "image": "../img/logo_docs.png",
     "ignore": {
         "files": [
         ]
