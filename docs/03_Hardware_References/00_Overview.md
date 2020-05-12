@@ -28,7 +28,7 @@
 | <img src="../img/icons/usb.png" height="20px" width="20px">             | USB              | 2x USB 3 Type-A <br> 2x USB Type-C:  <br>- USB 3.1 <br>- DisplayPort Alternate Mode <br>- Dual Role Port (DRP) USB Power Delivery (USB-PD) 3.0                        |
 | <img src="../img/icons/audio.png" height="20px" width="20px">           | Audio            | HD Audio Codec Realtek ALC888S<br>Microphone + Headphone Combo Connector (TRRS)<br>Pre-amplified stereo Speaker Connectors (up to 3W)<br>Digital Optical audio S/PDIF and analog stereo output combo jack 3.5mm connector        |
 | <img src="../img/icons/other.png" height="20px" width="20px">           | Other Interfaces | Front Panel Headers, Fan controller, RTC battery included |
-| <img src="../img/icons/pins.png" height="20px" width="20px">            | Embedded Controller I/O Pins |  2x UART, 2x I2C, 1x SPI, 1x FAN Controller, 10x GPIO     |
+| <img src="../img/icons/pins.png" height="20px" width="20px">            | Embedded Controller I/O Pins |  2x UART, 2x I2C, 1x SPI, 1x FAN Controller, 16x GPIO     |
 | <img src="../img/icons/os.png" height="20px" width="20px">              | Operating System | Windows 10 64bit<br>Any Linux Distribution for x86_64bit                                  |
 | <img src="../img/icons/dimensions.png" height="20px" width="20px">      | Board Dimensions | 12cm x 12cm  -  4.72” x 4.72”  - Nano-ITX standard form factor                          |
 <br/>
