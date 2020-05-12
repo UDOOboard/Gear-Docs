@@ -1,6 +1,6 @@
 {
     "require": {
-        "daux/daux.io": "0.13.*"
+        "daux/daux.io": "0.10.*"
     },
     "scripts": {
 	    "generate" : "daux generate"
